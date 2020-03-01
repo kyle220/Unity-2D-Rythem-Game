@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 4056359673
+    locked: 0
+  - name: Judge Lines
+    uniqueID: 1755438401
+    locked: 0
+  - name: Notes
+    uniqueID: 2163031119
+    locked: 0
+  - name: Judgement
+    uniqueID: 692602607
+    locked: 0
+  - name: Effect
+    uniqueID: 2767029181
+    locked: 0
