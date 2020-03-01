@@ -65,6 +65,8 @@
     <Compile Include="Assets\Scripts\BackgroundBehavior.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\NoteBehavior.cs" />
+    <Compile Include="Assets\Scripts\NoteController.cs" />
+    <Compile Include="Assets\Scripts\ObjectPooler.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Unity Rythem Game project/Project/Unity-2D-Rythem-Game/Unity-2D-Rythem-Game/Unity 2D Rythem Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
