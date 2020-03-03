@@ -28,7 +28,7 @@ public class NoteBehavior : MonoBehaviour
         transform.Translate(Vector3.down * GameManager.instance.noteSpeed);
         if (Input.GetKey(KeyCode))
         {
-            Debug.Log(judge);
+            GameManager.instance.processJudge(judge, noteType);
             if (judge != GameManager.judges.None) gameObject.SetActive(false);
         }
     }
@@ -51,6 +51,7 @@ public class NoteBehavior : MonoBehaviour
         {
             judge = GameManager.judges.MISS;
             gameObject.SetActive(false);
+            GameManager.instance.processJudge(judge, noteType);
         }
 
     }
